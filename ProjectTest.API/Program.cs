@@ -11,7 +11,7 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     app.Logger.LogInformation("Initial Home Get");
-    return "GET - Net 6 Running ... 23092023-v1.0.0 CI/CD in AKS v1.0.0 POLYGLOT DEPLOY CI AUTOMÁTICO";
+    return "GET - Net 7 Running ... 24092023-v1.0.0 CI/CD in AKS & Container v1.0.1 POLYGLOT DEPLOY CI";
 });
 
 app.MapPost("/", () =>
