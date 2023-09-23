@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.Tests/ProjectTest.Tests.csproj": {}
+    "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.Tests/ProjectTest.Tests.csproj": {}
   },
   "projects": {
-    "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.Tests/ProjectTest.Tests.csproj": {
+    "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.Tests/ProjectTest.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.Tests/ProjectTest.Tests.csproj",
+        "projectUniqueName": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.Tests/ProjectTest.Tests.csproj",
         "projectName": "ProjectTest.Tests",
-        "projectPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.Tests/ProjectTest.Tests.csproj",
+        "projectPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.Tests/ProjectTest.Tests.csproj",
         "packagesPath": "/Users/sergioortegacastillo/.nuget/packages/",
-        "outputPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.Tests/obj/",
+        "outputPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sergioortegacastillo/.nuget/NuGet/NuGet.Config"

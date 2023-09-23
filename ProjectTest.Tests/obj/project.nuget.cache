@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kgPvHqBc23f0VGXwpwXpdDq4gcJd5XChygN+lsre8T8tOtcO69vL/uHyKJZ1QVU0i54GKymGgI9BuRzfDt+1bQ==",
+  "dgSpecHash": "RlnVJfWqDTbYkL34jcazdHHllSiVKZ0IemtCB+AjYR3EU7ZuM77kOVsbgq66Prvx1Z45Y69MY+v7yzhBhhzQwQ==",
   "success": true,
-  "projectFilePath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.Tests/ProjectTest.Tests.csproj",
+  "projectFilePath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.Tests/ProjectTest.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/sergioortegacastillo/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/sergioortegacastillo/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",

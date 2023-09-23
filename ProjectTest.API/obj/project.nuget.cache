@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vsRXWKhkUEVZNog+zjaMP1czsVjmKjGjvkZQZroHSJDqPG0ZpdQhO7QR/Ayaxl/17Caj82ZlUs28Xvq9vsWfQw==",
+  "dgSpecHash": "CIrBKcESRHAjuYX+l2buFiBdauPnkFaL+aWUUFX/lruS06Mc84n37wsTHTIjDp8jEr2dIVYM3ldaZgAAdi+MbA==",
   "success": true,
-  "projectFilePath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.API/ProjectTest.API.csproj",
+  "projectFilePath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.API/ProjectTest.API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

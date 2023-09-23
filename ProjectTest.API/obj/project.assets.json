@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.API/ProjectTest.API.csproj",
+      "projectUniqueName": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.API/ProjectTest.API.csproj",
       "projectName": "ProjectTest.API",
-      "projectPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.API/ProjectTest.API.csproj",
+      "projectPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.API/ProjectTest.API.csproj",
       "packagesPath": "/Users/sergioortegacastillo/.nuget/packages/",
-      "outputPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/DEVOPS-SEP23/ProjectTest.API/obj/",
+      "outputPath": "/Users/sergioortegacastillo/Desktop/ejerciciodevops/devops-azure-test/ProjectTest.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sergioortegacastillo/.nuget/NuGet/NuGet.Config"
