@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('SCM') {
+            steps {
+                git branch: 'main', url: 'https://github.com/sergioortegac/devops-azure-test.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh(script: '/usr/local/bin/docker login --username sergioortegac --password Zsxawsjik54gh123$' , returnStdout:true);
+                sh(script: '/usr/local/bin/docker build -t sergioortegac/devops-ms-account .' , returnStdout:true);
+                sh(script: '/usr/local/bin/docker push sergioortegac/devops-ms-account', returnStdout:true)
+            }
+        }
+        stage('CD AKS') {
+            steps {
+                sh(script: '/usr/local/bin/az login --service-principal --username 2296029a-486b-42c9-9811-badf7cbba07c --password vEk8Q~ocJm65qCYMyPh9gRgP~cTQD4mw2UZBfbnq --tenant ecc19d46-05a3-4ad9-ada5-b02c919845ee' , returnStdout:true);
+                sh(script: '/usr/local/bin/az account set --subscription 449b3b1f-9096-4e36-926c-43a47409e12c' , returnStdout:true);
+                sh(script: '/usr/local/bin/az aks get-credentials --resource-group devops --name cluster_test_sep_22_so' , returnStdout:true);
+                sh(script: '/usr/local/bin/kubectl config use-context cluster_test_sep_22_so --kubeconfig=$KUBE_PATH_CONFIG' , returnStdout:true);
+                sh(script: '/usr/local/bin/kubectl apply -f k8s.yml --kubeconfig=$KUBE_PATH_CONFIG' , returnStdout:true);
+                sh(script: '/usr/local/bin/kubectl rollout restart deployment app-deployment --kubeconfig=$KUBE_PATH_CONFIG' , returnStdout:true);
+            }
+        }
+    }
+}
