@@ -11,7 +11,7 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     app.Logger.LogInformation("Initial Home Get");
-    return "GET - Net 7 Running ... 24092023-v1.0.0 CI/CD in AKS Pipelines con cambio en GH Test";
+    return "GET - Net 7 Running ... 24092023-v1.0.0 CI/CD in AKS Pipelines con cambio en GH Test Verdadero";
 });
 
 app.MapPost("/", () =>
